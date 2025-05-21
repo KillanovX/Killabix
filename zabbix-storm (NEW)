@@ -28,13 +28,12 @@ clear
 # ASCII ZABBIX
 echo -e "${RED}"
 cat << "EOF"
- ######     ##     #####    #####     ####    ##  ##             ####    ######    ####    #####    ##   ##
-     ##    ####    ##  ##   ##  ##     ##     ##  ##            ##  ##     ##     ##  ##   ##  ##   ### ###
-    ##    ##  ##   ##  ##   ##  ##     ##       ###             ##         ##     ##  ##   ##  ##   #######
-   ##     ######   #####    #####      ##       ##               ####      ##     ##  ##   #####    ## # ##
-  ##      ##  ##   ##  ##   ##  ##     ##      ####                 ##     ##     ##  ##   ####     ##   ##
- ##       ##  ##   ##  ##   ##  ##     ##     ##  ##            ##  ##     ##     ##  ##   ## ##    ##   ##
- ######   ##  ##   #####    #####     ####    ##  ##             ####      ##      ####    ##  ##   ##   ##
+    __ __ ______    __    ___    ____  _____  __
+   / //_//  _/ /   / /   /   |  / __ )/  _/ |/ /
+  / ,<   / // /   / /   / /| | / __  |/ / |   / 
+ / /| |_/ // /___/ /___/ ___ |/ /_/ // / /   |  
+/_/ |_/___/_____/_____/_/  |_/_____/___//_/|_|  
+                                                
 EOF
 echo -e "${NC}"
 echo -e "${NC}"
@@ -112,5 +111,5 @@ IP=$(hostname -I | awk '{print $1}')
 echo -e "${WHITE}🔗 Zabbix: ${YELLOW}http://${BLUE}${IP}${YELLOW}/zabbix ${NC}(login: ${BLUE}Admin${NC} / ${BLUE}zabbix${NC})"
 echo -e "${WHITE}🔗 Grafana:${YELLOW} http://${BLUE}${IP}${YELLOW}:3000 ${NC}(login: ${BLUE}admin${NC} / ${BLUE}admin${NC})"
 echo
-echo -e "\e[1;37mScript desenvolvido por: \e[1;92mBUG IT\e[0m"
+echo -e "\e[1;37mScript desenvolvido por: \e[1;92mKillanovX\e[0m"
 echo
